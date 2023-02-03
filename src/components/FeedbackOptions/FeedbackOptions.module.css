@@ -1,0 +1,15 @@
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 5px 10px;
+  
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+  }
+  
