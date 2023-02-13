@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Statistics } from './Statistics/Statistics';
 import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
 import { Section } from './Section/Section';
@@ -27,8 +27,6 @@ export default function App() {
 
   const total = good + neutral + bad;
   const feedbackPercentage = Math.round((good / total) * 100);
-
-  useEffect(() => {});
 
   return (
     <div
